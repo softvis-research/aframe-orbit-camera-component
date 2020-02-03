@@ -1,0 +1,26 @@
+{
+  "name": "aframe-orbit-camera-component",
+  "version": "1.1.0",
+  "description": "This is a modified version of the AFrame Orbict Controls Component. It allows users to rotate the camera around the center of the screen.",
+  "main": "aframe-orbit-camera-component.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softvis-research/aframe-orbit-camera-component.git"
+  },
+  "keywords": [
+    "A-Frame",
+    "AFrame"
+  ],
+  "author": "Visual Software Analytics",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/softvis-research/aframe-orbit-camera-component/issues"
+  },
+  "homepage": "https://github.com/softvis-research/aframe-orbit-camera-component#readme"
+}
