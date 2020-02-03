@@ -41,6 +41,7 @@ AFRAME.registerComponent('orbit-camera', {
    * Initial Setup
    */
   init: function () {
+    globalCamera = this;
     this.sceneEl = this.el.sceneEl;
     this.object = this.el.object3D;
     this.canvasEl = this.sceneEl.canvas;
@@ -444,7 +445,6 @@ AFRAME.registerComponent('orbit-camera', {
    * VIEW UPDATE
    */
   updateView: function () {
-
     var offset = new THREE.Vector3();
 
     // so camera.up is the orbit axis
